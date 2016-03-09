@@ -12,3 +12,15 @@ git clone https://github.com/steelbrain/webpack-bug
 cd webpack-bug
 ./trigger-bug.sh
 ```
+
+## Expected Behavior
+
+No error should be triggered the second time it's compiled
+
+## Current Behavior
+
+Error is trigger both times and the newly installed package is not recognized
+
+## Debug Information
+
+I'm experiencing this with `v1.12.14` on Mac OSX

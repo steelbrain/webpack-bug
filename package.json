@@ -1,0 +1,6 @@
+{
+  "name": "webpack-bug",
+  "dependencies": {
+    "webpack": "^1.12.14"
+  }
+}

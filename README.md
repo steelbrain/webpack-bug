@@ -1,6 +1,8 @@
 WebPack-Bug
 ===========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/webpack-bug.svg)](https://greenkeeper.io/)
+
 I'm experiencing a strange bug in webpack where it does not notice changes for things that it had previously failed.
 
 I have tried doing `this.fileSystem.purge()` to purge file system cache from a resolver, that didn't work too, this repo is just a minimal demonstration.
